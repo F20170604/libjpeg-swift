@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build/master.swiftdeps"
+  },
+  "/Users/ayush517/libjpeg-swift/Sources/libjpeg-swift/libjpeg_swift.swift": {
+    "dependencies": "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build/libjpeg_swift.d",
+    "object": "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build/libjpeg_swift.swift.o",
+    "swiftmodule": "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build/libjpeg_swift~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build/libjpeg_swift.swiftdeps"
+  }
+}

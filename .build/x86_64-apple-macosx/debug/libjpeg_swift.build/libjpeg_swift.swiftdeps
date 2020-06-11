@@ -1,0 +1,36 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "libjpeg_swift"
+- "tryHello"
+provides-nominal:
+- "13libjpeg_swiftAAV"
+provides-member:
+- ["13libjpeg_swiftAAV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- "StringLiteralType"
+- "libjpeg_swift"
+- !private "print"
+- !private "tjInitCompress"
+- "tryHello"
+depends-member:
+- ["13libjpeg_swiftAAV", "init"]
+- ["13libjpeg_swiftAAV", "text"]
+depends-nominal:
+- "13libjpeg_swiftAAV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/jpeglib.h"
+- "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/turbojpeg.h"
+- "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/jmorecfg.h"
+- "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/jconfig.h"
+- "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/jerror.h"
+- "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/module.modulemap"
+- "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build/module.modulemap"
+- "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+interface-hash: "2b527bdaa2b2677d1732f37ea85a86ab"

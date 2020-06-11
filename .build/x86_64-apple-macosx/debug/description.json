@@ -1,0 +1,25 @@
+{
+  "allExecutables" : [
+
+  ],
+  "builtTestProducts" : [
+    {
+      "packageName" : "libjpeg-swift",
+      "productName" : "libjpeg-swiftPackageTests",
+      "testBinary" : "\/Users\/ayush517\/libjpeg-swift\/.build\/x86_64-apple-macosx\/debug\/libjpeg-swiftPackageTests.xctest\/Contents\/MacOS\/libjpeg-swiftPackageTests"
+    }
+  ],
+  "copyCommands" : {
+
+  },
+  "rootExecutables" : [
+
+  ],
+  "swiftTargetMap" : {
+    "C.libjpeg-swift-debug.module" : "libjpeg-swift",
+    "C.libjpeg-swiftTests-debug.module" : "libjpeg-swiftTests"
+  },
+  "testDiscoveryCommands" : {
+
+  }
+}

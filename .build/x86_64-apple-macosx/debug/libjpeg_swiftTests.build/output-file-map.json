@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/master.swiftdeps"
+  },
+  "/Users/ayush517/libjpeg-swift/Tests/libjpeg-swiftTests/XCTestManifests.swift": {
+    "dependencies": "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/XCTestManifests.d",
+    "object": "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/XCTestManifests.swift.o",
+    "swiftmodule": "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/XCTestManifests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/XCTestManifests.swiftdeps"
+  },
+  "/Users/ayush517/libjpeg-swift/Tests/libjpeg-swiftTests/libjpeg_swiftTests.swift": {
+    "dependencies": "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/libjpeg_swiftTests.d",
+    "object": "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/libjpeg_swiftTests.swift.o",
+    "swiftmodule": "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/libjpeg_swiftTests~partial.swiftmodule",
+    "swift-dependencies": "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/libjpeg_swiftTests.swiftdeps"
+  }
+}

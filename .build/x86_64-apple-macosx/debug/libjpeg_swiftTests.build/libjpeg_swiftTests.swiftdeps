@@ -1,0 +1,157 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "libjpeg_swiftTests"
+provides-nominal:
+- "18libjpeg_swiftTestsAAC"
+provides-member:
+- ["18libjpeg_swiftTestsAAC", ""]
+provides-dynamic-lookup:
+- "allTests"
+- "testExample"
+depends-top-level:
+- "StringLiteralType"
+- !private "XCTAssertEqual"
+- "XCTestCase"
+- !private "libjpeg_swift"
+- "libjpeg_swiftTests"
+- !private "tryHello"
+depends-member:
+- !private ["s7CVarArgP", "XCTAssertEqual"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "libjpeg_swift"]
+- ["s7CVarArgP", "testExample"]
+- !private ["s7CVarArgP", "tryHello"]
+- !private ["s28CustomDebugStringConvertibleP", "XCTAssertEqual"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "libjpeg_swift"]
+- ["s28CustomDebugStringConvertibleP", "testExample"]
+- !private ["s28CustomDebugStringConvertibleP", "tryHello"]
+- !private ["s23CustomStringConvertibleP", "XCTAssertEqual"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "libjpeg_swift"]
+- ["s23CustomStringConvertibleP", "testExample"]
+- !private ["s23CustomStringConvertibleP", "tryHello"]
+- !private ["SQ", "XCTAssertEqual"]
+- ["SQ", ""]
+- !private ["SQ", "libjpeg_swift"]
+- ["SQ", "testExample"]
+- !private ["SQ", "tryHello"]
+- !private ["SH", "XCTAssertEqual"]
+- ["SH", ""]
+- !private ["SH", "libjpeg_swift"]
+- ["SH", "testExample"]
+- !private ["SH", "tryHello"]
+- !private ["So8NSObjectC", "XCTAssertEqual"]
+- ["So8NSObjectC", "allTests"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "libjpeg_swift"]
+- ["So8NSObjectC", "testExample"]
+- !private ["So8NSObjectC", "tryHello"]
+- !private ["So8NSObjectP", "XCTAssertEqual"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "libjpeg_swift"]
+- ["So8NSObjectP", "testExample"]
+- !private ["So8NSObjectP", "tryHello"]
+- !private ["So11XCTActivityP", "XCTAssertEqual"]
+- ["So11XCTActivityP", ""]
+- !private ["So11XCTActivityP", "libjpeg_swift"]
+- ["So11XCTActivityP", "testExample"]
+- !private ["So11XCTActivityP", "tryHello"]
+- !private ["So17XCTWaiterDelegateP", "XCTAssertEqual"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So17XCTWaiterDelegateP", "libjpeg_swift"]
+- ["So17XCTWaiterDelegateP", "testExample"]
+- !private ["So17XCTWaiterDelegateP", "tryHello"]
+- !private ["So6XCTestC", "XCTAssertEqual"]
+- ["So6XCTestC", "allTests"]
+- ["So6XCTestC", "init"]
+- !private ["So6XCTestC", "libjpeg_swift"]
+- ["So6XCTestC", "testExample"]
+- !private ["So6XCTestC", "tryHello"]
+- !private ["So10XCTestCaseC", "XCTAssertEqual"]
+- ["So10XCTestCaseC", ""]
+- ["So10XCTestCaseC", "allTests"]
+- ["So10XCTestCaseC", "init"]
+- !private ["So10XCTestCaseC", "libjpeg_swift"]
+- ["So10XCTestCaseC", "testExample"]
+- !private ["So10XCTestCaseC", "tryHello"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "XCTAssertEqual"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "libjpeg_swift"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "testExample"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tryHello"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "XCTAssertEqual"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "libjpeg_swift"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testExample"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tryHello"]
+- !private ["13libjpeg_swiftAAV", "init"]
+- !private ["13libjpeg_swiftAAV", "text"]
+- !private ["18libjpeg_swiftTestsAAC", "XCTAssertEqual"]
+- ["18libjpeg_swiftTestsAAC", "allTests"]
+- ["18libjpeg_swiftTestsAAC", "deinit"]
+- ["18libjpeg_swiftTestsAAC", "init"]
+- !private ["18libjpeg_swiftTestsAAC", "libjpeg_swift"]
+- ["18libjpeg_swiftTestsAAC", "testExample"]
+- !private ["18libjpeg_swiftTestsAAC", "tryHello"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "13libjpeg_swiftAAV"
+- "18libjpeg_swiftTestsAAC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/XCTest.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.swiftmodule"
+- "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/jpeglib.h"
+- "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/turbojpeg.h"
+- "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/jmorecfg.h"
+- "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/jconfig.h"
+- "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/jerror.h"
+- "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/module.modulemap"
+- "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build/module.modulemap"
+- "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework/Headers/XCTest.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3272604393fd97e2bf7605d30c50219a"

@@ -1,0 +1,4 @@
+module libjpeg_swift {
+    header "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build/libjpeg-swift-Swift.h"
+    requires objc
+}

@@ -1,0 +1,128 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "libjpeg-debug.module": ["<libjpeg-debug.module>"]
+  "libjpeg-swift-debug.module": ["<libjpeg-swift-debug.module>"]
+  "libjpeg-swiftPackageTests-debug.test": ["<libjpeg-swiftPackageTests-debug.test>"]
+  "libjpeg-swiftTests-debug.module": ["<libjpeg-swiftTests-debug.module>"]
+  "main": ["<libjpeg-debug.module>","<libjpeg-swift-debug.module>"]
+  "test": ["<libjpeg-debug.module>","<libjpeg-swift-debug.module>","<libjpeg-swiftPackageTests-debug.test>","<libjpeg-swiftTests-debug.module>"]
+default: "main"
+nodes:
+  "/Users/ayush517/libjpeg-swift/Sources/libjpeg/":
+    is-directory-structure: true
+  "/Users/ayush517/libjpeg-swift/Sources/libjpeg-swift/":
+    is-directory-structure: true
+  "/Users/ayush517/libjpeg-swift/Tests/libjpeg-swiftTests/":
+    is-directory-structure: true
+commands:
+  "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jconfig.c.o":
+    tool: clang
+    inputs: ["/Users/ayush517/libjpeg-swift/Sources/libjpeg/jconfig.c"]
+    outputs: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jconfig.c.o"]
+    description: "Compiling libjpeg jconfig.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libjpeg","-I","/Users/ayush517/libjpeg-swift/Sources/libjpeg/include","-fmodules-cache-path=/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jconfig.c.d","-c","/Users/ayush517/libjpeg-swift/Sources/libjpeg/jconfig.c","-o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jconfig.c.o"]
+
+  "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jerror.c.o":
+    tool: clang
+    inputs: ["/Users/ayush517/libjpeg-swift/Sources/libjpeg/jerror.c"]
+    outputs: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jerror.c.o"]
+    description: "Compiling libjpeg jerror.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libjpeg","-I","/Users/ayush517/libjpeg-swift/Sources/libjpeg/include","-fmodules-cache-path=/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jerror.c.d","-c","/Users/ayush517/libjpeg-swift/Sources/libjpeg/jerror.c","-o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jerror.c.o"]
+
+  "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jmorecfg.c.o":
+    tool: clang
+    inputs: ["/Users/ayush517/libjpeg-swift/Sources/libjpeg/jmorecfg.c"]
+    outputs: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jmorecfg.c.o"]
+    description: "Compiling libjpeg jmorecfg.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libjpeg","-I","/Users/ayush517/libjpeg-swift/Sources/libjpeg/include","-fmodules-cache-path=/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jmorecfg.c.d","-c","/Users/ayush517/libjpeg-swift/Sources/libjpeg/jmorecfg.c","-o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jmorecfg.c.o"]
+
+  "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jpeglib.c.o":
+    tool: clang
+    inputs: ["/Users/ayush517/libjpeg-swift/Sources/libjpeg/jpeglib.c"]
+    outputs: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jpeglib.c.o"]
+    description: "Compiling libjpeg jpeglib.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libjpeg","-I","/Users/ayush517/libjpeg-swift/Sources/libjpeg/include","-fmodules-cache-path=/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jpeglib.c.d","-c","/Users/ayush517/libjpeg-swift/Sources/libjpeg/jpeglib.c","-o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jpeglib.c.o"]
+
+  "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/libjpeg.c.o":
+    tool: clang
+    inputs: ["/Users/ayush517/libjpeg-swift/Sources/libjpeg/libjpeg.c"]
+    outputs: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/libjpeg.c.o"]
+    description: "Compiling libjpeg libjpeg.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libjpeg","-I","/Users/ayush517/libjpeg-swift/Sources/libjpeg/include","-fmodules-cache-path=/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/libjpeg.c.d","-c","/Users/ayush517/libjpeg-swift/Sources/libjpeg/libjpeg.c","-o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/libjpeg.c.o"]
+
+  "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/turbojpeg.c.o":
+    tool: clang
+    inputs: ["/Users/ayush517/libjpeg-swift/Sources/libjpeg/turbojpeg.c"]
+    outputs: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/turbojpeg.c.o"]
+    description: "Compiling libjpeg turbojpeg.c"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","x86_64-apple-macosx10.10","-isysroot","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-g","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=libjpeg","-I","/Users/ayush517/libjpeg-swift/Sources/libjpeg/include","-fmodules-cache-path=/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/ModuleCache","-MD","-MT","dependencies","-MF","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/turbojpeg.c.d","-c","/Users/ayush517/libjpeg-swift/Sources/libjpeg/turbojpeg.c","-o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/turbojpeg.c.o"]
+
+  "<libjpeg-debug.module>":
+    tool: phony
+    inputs: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jconfig.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jerror.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jmorecfg.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jpeglib.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/libjpeg.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/turbojpeg.c.o"]
+    outputs: ["<libjpeg-debug.module>"]
+
+  "<libjpeg-swift-debug.module>":
+    tool: phony
+    inputs: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build/libjpeg_swift.swift.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.swiftmodule"]
+    outputs: ["<libjpeg-swift-debug.module>"]
+
+  "<libjpeg-swiftPackageTests-debug.test>":
+    tool: phony
+    inputs: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg-swiftPackageTests.xctest/Contents/MacOS/libjpeg-swiftPackageTests"]
+    outputs: ["<libjpeg-swiftPackageTests-debug.test>"]
+
+  "<libjpeg-swiftTests-debug.module>":
+    tool: phony
+    inputs: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/XCTestManifests.swift.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/libjpeg_swiftTests.swift.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.swiftmodule"]
+    outputs: ["<libjpeg-swiftTests-debug.module>"]
+
+  "C.libjpeg-swift-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/ayush517/libjpeg-swift/Sources/libjpeg-swift/libjpeg_swift.swift","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jconfig.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jerror.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jmorecfg.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jpeglib.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/libjpeg.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/turbojpeg.c.o"]
+    outputs: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build/libjpeg_swift.swift.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "libjpeg_swift"
+    module-output-path: "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.swiftmodule"
+    import-paths: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build"
+    objects: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build/libjpeg_swift.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j8","-DSWIFT_PACKAGE","-DDEBUG","-Xcc","-fmodule-map-file=/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/module.modulemap","-I","/Users/ayush517/libjpeg-swift/Sources/libjpeg/include","-module-cache-path","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-emit-objc-header","-emit-objc-header-path","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build/libjpeg-swift-Swift.h","-color-diagnostics"]
+    sources: ["/Users/ayush517/libjpeg-swift/Sources/libjpeg-swift/libjpeg_swift.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 8
+
+  "C.libjpeg-swiftPackageTests-debug.test":
+    tool: shell
+    inputs: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jconfig.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jerror.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jmorecfg.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/jpeglib.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/libjpeg.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/turbojpeg.c.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build/libjpeg_swift.swift.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/XCTestManifests.swift.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/libjpeg_swiftTests.swift.o"]
+    outputs: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg-swiftPackageTests.xctest/Contents/MacOS/libjpeg-swiftPackageTests"]
+    description: "Linking ./.build/x86_64-apple-macosx/debug/libjpeg-swiftPackageTests.xctest/Contents/MacOS/libjpeg-swiftPackageTests"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug","-o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg-swiftPackageTests.xctest/Contents/MacOS/libjpeg-swiftPackageTests","-module-name","libjpeg_swiftPackageTests","-Xlinker","-bundle","-Xlinker","-rpath","-Xlinker","@loader_path/../../../","@/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg-swiftPackageTests.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.10","-ljpeg","-L/Users/ayush517/libjpeg-turbo/buildFolder/lib/","-Xlinker","-add_ast_path","-Xlinker","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.swiftmodule","-Xlinker","-add_ast_path","-Xlinker","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.swiftmodule","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.libjpeg-swiftTests-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/ayush517/libjpeg-swift/Tests/libjpeg-swiftTests/XCTestManifests.swift","/Users/ayush517/libjpeg-swift/Tests/libjpeg-swiftTests/libjpeg_swiftTests.swift","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.swiftmodule"]
+    outputs: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/XCTestManifests.swift.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/libjpeg_swiftTests.swift.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "libjpeg_swiftTests"
+    module-output-path: "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.swiftmodule"
+    import-paths: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build"
+    objects: ["/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/XCTestManifests.swift.o","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swiftTests.build/libjpeg_swiftTests.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.10","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j8","-DSWIFT_PACKAGE","-DDEBUG","-Xcc","-fmodule-map-file=/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/module.modulemap","-I","/Users/ayush517/libjpeg-swift/Sources/libjpeg/include","-module-cache-path","/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-color-diagnostics"]
+    sources: ["/Users/ayush517/libjpeg-swift/Tests/libjpeg-swiftTests/XCTestManifests.swift","/Users/ayush517/libjpeg-swift/Tests/libjpeg-swiftTests/libjpeg_swiftTests.swift"]
+    is-library: true
+    enable-whole-module-optimization: false
+    num-threads: 8
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/ayush517/libjpeg-swift/Sources/libjpeg/","/Users/ayush517/libjpeg-swift/Sources/libjpeg-swift/","/Users/ayush517/libjpeg-swift/Tests/libjpeg-swiftTests/","/Users/ayush517/libjpeg-swift/Package.swift","/Users/ayush517/libjpeg-swift/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

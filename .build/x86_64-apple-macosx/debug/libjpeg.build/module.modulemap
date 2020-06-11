@@ -1,0 +1,4 @@
+module libjpeg {
+    umbrella "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include"
+    export *
+}

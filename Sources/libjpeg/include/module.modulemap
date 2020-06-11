@@ -1,0 +1,8 @@
+module libjpeg {
+    header "jconfig.h"
+    header "jerror.h"
+    header "jmorecfg.h"
+    header "jpeglib.h"
+    header "turbojpeg.h"
+    export *
+}

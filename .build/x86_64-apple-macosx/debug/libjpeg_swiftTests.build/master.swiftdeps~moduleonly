@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
+options: "1f22265bc0d8942a1d4cf84214fda8a4"
+build_time: [1591875735, 319087000]
+inputs:
+  "/Users/ayush517/libjpeg-swift/Tests/libjpeg-swiftTests/XCTestManifests.swift": [1591816838, 0]
+  "/Users/ayush517/libjpeg-swift/Tests/libjpeg-swiftTests/libjpeg_swiftTests.swift": [1591875635, 154342657]
