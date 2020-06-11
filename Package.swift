@@ -23,8 +23,8 @@ let package = Package(
             dependencies: [],
             path: "Sources/libjpeg",
             linkerSettings:[
-              .linkedLibrary("jpeg"),
-              .unsafeFlags(["-L/Users/ayush517/libjpeg-turbo/buildFolder/lib/"]),
+              .linkedLibrary("turbojpeg"),
+              .unsafeFlags(["-L/usr/local/opt/jpeg-turbo/lib"]),
             ]
             ),
         .target(
