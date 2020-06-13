@@ -3,4 +3,4 @@
 #include "jmorecfg.h"
 #include "jpeglib.h"
 #include "turbojpeg.h"
-#include "loadJPEGImage.h"
+#include "JPEGImageOps.h"
