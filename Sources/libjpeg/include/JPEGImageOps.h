@@ -19,3 +19,7 @@ DLLEXPORT unsigned char *tjJPEGLoadImage(const char *filename, int *width,
 DLLEXPORT int tjJPEGSaveImage(const char *filename, unsigned char *buffer,
                               int width, int pitch, int height, int pixelFormat, int outSubsamp,
                               int flags);
+
+DLLEXPORT unsigned char* tjJPEGLoadImageCompressed(const char *filename, int *width,
+                                                   int align, int *height, int *pixelFormat, int *inSubsamp,
+                                                   int flags);
