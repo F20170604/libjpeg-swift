@@ -1,5 +1,5 @@
 //
-//  File.h
+//  loadJPEGImage.h
 //  
 //
 //  Created by Ayush Agrawal on 13/06/20.
