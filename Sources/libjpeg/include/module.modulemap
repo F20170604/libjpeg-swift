@@ -4,6 +4,6 @@ module libjpeg {
     header "jmorecfg.h"
     header "jpeglib.h"
     header "turbojpeg.h"
-    header "loadJPEGImage.h"
+    header "JPEGImageOps.h"
     export *
 }
