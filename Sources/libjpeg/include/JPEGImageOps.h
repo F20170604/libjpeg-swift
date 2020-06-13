@@ -14,12 +14,12 @@
 
 DLLEXPORT unsigned char *tjJPEGLoadImage(const char *filename, int *width,
                                          int align, int *height, int *pixelFormat, int *inSubsamp,
-                                         int flags);
+                                         long *size, int flags);
 
 DLLEXPORT unsigned char* tjJPEGSaveImage(unsigned char *buffer,
                                          int width, int pitch, int height, int pixelFormat, int outSubsamp,
-                                         int flags);
+                                         long size, int flags);
 
 DLLEXPORT unsigned char* tjJPEGLoadImageCompressed(const char *filename, int *width,
                                                    int align, int *height, int *pixelFormat, int *inSubsamp,
-                                                   int flags);
+                                                   long *size, int flags);
