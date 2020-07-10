@@ -29,6 +29,7 @@ depends-external:
 - "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/jmorecfg.h"
 - "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/jconfig.h"
 - "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/jerror.h"
+- "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/JPEGImageOps.h"
 - "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg.build/module.modulemap"
 - "/Users/ayush517/libjpeg-swift/.build/x86_64-apple-macosx/debug/libjpeg_swift.build/module.modulemap"
 - "/Users/ayush517/libjpeg-swift/Sources/libjpeg/include/module.modulemap"

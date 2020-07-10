@@ -1,5 +1,5 @@
 version: "Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)"
 options: "1d75cb627b0f5969625407aa8588b3e1"
-build_time: [1591991120, 231425000]
+build_time: [1594382318, 326123000]
 inputs:
-  "/Users/ayush517/libjpeg-swift/Sources/libjpeg-swift/libjpeg_swift.swift": [1591988794, 506092336]
+  "/Users/ayush517/libjpeg-swift/Sources/libjpeg-swift/libjpeg_swift.swift": [1592246131, 0]

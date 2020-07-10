@@ -13,51 +13,7 @@
 tjscalingfactor *scalingFactors = NULL;
 int numScalingFactors = 0;
 
-DLLEXPORT unsigned char* tjJPEGLoadImage(const char *filename, int *width,
-                                     int align, int *height, int *pixelFormat, int *inSubsamp,
-                                     int flags) {
-
-    tjscalingfactor scalingFactor = { 1, 1 };
-    char *inFormat = "jpg", *outFormat = "jpg";
-    FILE *jpegFile = NULL;
-    unsigned char *imgBuf = NULL, *jpegBuf = NULL;
-    int i;
-    *pixelFormat = TJPF_UNKNOWN;
-    tjhandle tjInstance = NULL;
-
-    long size;
-    int inColorspace;
-    unsigned long jpegSize;
-
-    /* Read the JPEG file into memory. */
-    jpegFile = fopen(filename, "rb");
-    fseek(jpegFile, 0, SEEK_END);
-    size = ftell(jpegFile);
-    fseek(jpegFile, 0, SEEK_SET);
-    jpegSize = (unsigned long)size;
-    jpegBuf = (unsigned char *)tjAlloc(jpegSize);
-    fread(jpegBuf, jpegSize, 1, jpegFile);
-    fclose(jpegFile);  jpegFile = NULL;
-
-    tjInstance = tjInitDecompress();
-    tjDecompressHeader3(tjInstance, jpegBuf, jpegSize, width, height, inSubsamp, &inColorspace);
-
-    int jpegwidth = TJSCALED(*width, scalingFactor);
-    int jpegheight = TJSCALED(*height, scalingFactor);
-    width = &jpegwidth;
-    height = &jpegheight;
-
-
-    *pixelFormat = TJPF_BGRX;
-    imgBuf = (unsigned char *)tjAlloc(*width * *height * tjPixelSize[*pixelFormat]);
-    tjDecompress2(tjInstance, jpegBuf, jpegSize, imgBuf, *width, 0, *height, *pixelFormat, flags);
-    tjFree(jpegBuf);  jpegBuf = NULL;
-    tjDestroy(tjInstance);  tjInstance = NULL;
-
-    return imgBuf;
-}
-
-DLLEXPORT unsigned char* tjJPEGLoadImageCompressed(const char *filename, int *width,
+DLLEXPORT unsigned char* tjJPEGLoadCompressedImage(const char *filename, int *width,
                                      int align, int *height, int *pixelFormat, int *inSubsamp,
                                      int flags) {
 
