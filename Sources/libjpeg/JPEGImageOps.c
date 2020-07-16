@@ -68,7 +68,7 @@ DLLEXPORT int tjJPEGSaveImage(const char *filename, unsigned char *buffer,
     int outQual = DEFAULT_QUALITY;
     
     tjInstance = tjInitCompress();
-    tjCompress2(tjInstance, imgBuf, width, 0, height, pixelFormat,
+    tjCompress2(tjInstance, buffer, width, 0, height, pixelFormat,
                 &jpegBuf, &jpegSize, outSubsamp, outQual, flags);
     tjDestroy(tjInstance);  tjInstance = NULL;
     
