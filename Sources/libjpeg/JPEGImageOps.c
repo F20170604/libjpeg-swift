@@ -21,12 +21,10 @@ DLLEXPORT unsigned char* tjJPEGLoadCompressedImage(const char *filename, int *wi
     char *inFormat = "jpg", *outFormat = "jpg";
     FILE *jpegFile = NULL;
     unsigned char *imgBuf = NULL, *jpegBuf = NULL;
-    int i;
     *pixelFormat = TJPF_UNKNOWN;
     tjhandle tjInstance = NULL;
 
     long size;
-    int inColorspace;
     unsigned long jpegSize;
 
     /* Read the JPEG file into memory. */
@@ -55,17 +53,10 @@ DLLEXPORT int tjJPEGSaveImage(const char *filename, unsigned char *buffer,
     
     FILE *jpegFile = NULL;
     unsigned char *imgBuf = NULL, *jpegBuf = NULL;
-    int i;
     tjhandle tjInstance = NULL;
 
-    long size;
-    int inSubsamp, inColorspace;
+    int inSubsamp, retVal = -1, outQual = DEFAULT_QUALITY;
     unsigned long jpegSize=0;
-    int retVal = -1;
-    
-    jpegBuf = NULL;  /* Dynamically allocate the JPEG buffer */
-    
-    int outQual = DEFAULT_QUALITY;
     
     tjInstance = tjInitCompress();
     tjCompress2(tjInstance, buffer, width, 0, height, pixelFormat,
