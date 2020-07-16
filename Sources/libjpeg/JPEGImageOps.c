@@ -49,7 +49,7 @@ DLLEXPORT unsigned char* tjJPEGLoadCompressedImage(const char *filename, int *wi
     return imgBuf;
 }
 
-DLLEXPORT unsigned char* tjJPEGSaveImage(unsigned char *buffer,
+DLLEXPORT int tjJPEGSaveImage(const char *filename, unsigned char *buffer,
                           int width, int pitch, int height, int pixelFormat, int outSubsamp,
                           int flags) {
     
@@ -60,7 +60,7 @@ DLLEXPORT unsigned char* tjJPEGSaveImage(unsigned char *buffer,
 
     long size;
     int inSubsamp, inColorspace;
-    unsigned long jpegSize=61538;
+    unsigned long jpegSize=0;
     int retVal = -1;
     
     jpegBuf = NULL;  /* Dynamically allocate the JPEG buffer */
@@ -71,11 +71,14 @@ DLLEXPORT unsigned char* tjJPEGSaveImage(unsigned char *buffer,
     tjCompress2(tjInstance, imgBuf, width, 0, height, pixelFormat,
                 &jpegBuf, &jpegSize, outSubsamp, outQual, flags);
     tjDestroy(tjInstance);  tjInstance = NULL;
+    
+    jpegFile = fopen(filename, "wb");
+    if (fwrite(jpegBuf, jpegSize, 1, jpegFile) == 1)
+        retVal = 0;
     tjDestroy(tjInstance);  tjInstance = NULL;
     fclose(jpegFile);  jpegFile = NULL;
-    //printf("%lu", jpegSize);
+    tjFree(jpegBuf);  jpegBuf = NULL;
     
-    return jpegBuf;
-    
+    return retVal;
     
 }

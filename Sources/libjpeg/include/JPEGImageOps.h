@@ -12,9 +12,9 @@
 
 #endif /* JPEGImageOps_h */
 
-DLLEXPORT unsigned char* tjJPEGSaveImage(unsigned char *buffer,
-                                         int width, int pitch, int height, int pixelFormat, int outSubsamp,
-                                         int flags);
+DLLEXPORT int tjJPEGSaveImage(const char *filename, unsigned char *buffer,
+                          int width, int pitch, int height, int pixelFormat, int outSubsamp,
+                          int flags);
 
 DLLEXPORT unsigned char* tjJPEGLoadCompressedImage(const char *filename, int *width,
                                                    int align, int *height, int *pixelFormat, int *inSubsamp,
